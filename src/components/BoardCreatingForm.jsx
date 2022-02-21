@@ -19,7 +19,7 @@ function BoardCreatingForm() {
         <div className="align-center m-top-md">
             <form onSubmit = {(e) => submitHandler(e)}>
                 <input type="text" name="boardTitle" value = {boardTitle} onChange = {(e) => setBoardTitle(e.target.value)} id="" />
-                <button type="submit" onClick= {(e) => submitHandler(e)} > Create Board </button>
+                <button type="submit" onClick= {(e) => submitHandler(e)} > Create Boards </button>
             </form>
         </div>
     )
