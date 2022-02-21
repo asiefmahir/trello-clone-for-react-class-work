@@ -9,15 +9,14 @@ import TaskProvider from './contexts/taskContext';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
+  
    <BoardProvider>
      <ListProvider>
        <TaskProvider>
          <App />
        </TaskProvider>
      </ListProvider>
-   </BoardProvider>
-  </React.StrictMode>,
+   </BoardProvider>,
   document.getElementById('root')
 );
 
